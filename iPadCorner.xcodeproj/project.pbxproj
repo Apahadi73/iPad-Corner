@@ -13,6 +13,9 @@
 		1AE3B8AE251C31F700B5C2BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE3B8AD251C31F700B5C2BA /* Preview Assets.xcassets */; };
 		1AE3B8B9251C31F800B5C2BA /* iPadCornerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B8B8251C31F800B5C2BA /* iPadCornerTests.swift */; };
 		1AE3B8C4251C31F800B5C2BA /* iPadCornerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B8C3251C31F800B5C2BA /* iPadCornerUITests.swift */; };
+		1AE3B8D6251C325C00B5C2BA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B8D5251C325C00B5C2BA /* Order.swift */; };
+		1AE3B8E7251C3E0100B5C2BA /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B8E6251C3E0100B5C2BA /* AddressView.swift */; };
+		1AE3B8EC251C3F4A00B5C2BA /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B8EB251C3F4A00B5C2BA /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		1AE3B8BF251C31F800B5C2BA /* iPadCornerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPadCornerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE3B8C3251C31F800B5C2BA /* iPadCornerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadCornerUITests.swift; sourceTree = "<group>"; };
 		1AE3B8C5251C31F800B5C2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE3B8D5251C325C00B5C2BA /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		1AE3B8E6251C3E0100B5C2BA /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		1AE3B8EB251C3F4A00B5C2BA /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,9 @@
 		1AE3B8A5251C31F600B5C2BA /* iPadCorner */ = {
 			isa = PBXGroup;
 			children = (
+				1AE3B8DD251C3DC200B5C2BA /* Views */,
+				1AE3B8D4251C324D00B5C2BA /* Models */,
 				1AE3B8A6251C31F700B5C2BA /* iPadCornerApp.swift */,
-				1AE3B8A8251C31F700B5C2BA /* ContentView.swift */,
 				1AE3B8AA251C31F700B5C2BA /* Assets.xcassets */,
 				1AE3B8AF251C31F700B5C2BA /* Info.plist */,
 				1AE3B8AC251C31F700B5C2BA /* Preview Content */,
@@ -128,6 +135,24 @@
 				1AE3B8C5251C31F800B5C2BA /* Info.plist */,
 			);
 			path = iPadCornerUITests;
+			sourceTree = "<group>";
+		};
+		1AE3B8D4251C324D00B5C2BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AE3B8D5251C325C00B5C2BA /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1AE3B8DD251C3DC200B5C2BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AE3B8A8251C31F700B5C2BA /* ContentView.swift */,
+				1AE3B8E6251C3E0100B5C2BA /* AddressView.swift */,
+				1AE3B8EB251C3F4A00B5C2BA /* CheckoutView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE3B8D6251C325C00B5C2BA /* Order.swift in Sources */,
+				1AE3B8E7251C3E0100B5C2BA /* AddressView.swift in Sources */,
+				1AE3B8EC251C3F4A00B5C2BA /* CheckoutView.swift in Sources */,
 				1AE3B8A9251C31F700B5C2BA /* ContentView.swift in Sources */,
 				1AE3B8A7251C31F700B5C2BA /* iPadCornerApp.swift in Sources */,
 			);
